@@ -1,0 +1,10 @@
+= My Little Mall API Document
+마이리틀몰 API 문서
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+include::product-api.adoc[]

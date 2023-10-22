@@ -15,10 +15,10 @@ import java.util.List;
 @RestController
 public class ProductController {
 
-    private final ProductService productService;
+  private final ProductService productService;
 
-    @GetMapping
-    public BaseResponse<List<Product>> getProducts() {
-        return new BaseResponse<>(productService.getProducts());
-    }
+  @GetMapping
+  public BaseResponse<List<Product>> getProducts() {
+    return new BaseResponse<>(productService.getProducts());
+  }
 }

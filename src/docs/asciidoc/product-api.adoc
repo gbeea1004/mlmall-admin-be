@@ -1,0 +1,6 @@
+[[Product-API]]
+== Product API
+
+[[Product-단일-조회]]
+=== Product 단일 조회
+operation::get-products[snippets='http-request,http-response,response-fields']
